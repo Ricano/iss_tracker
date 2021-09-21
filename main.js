@@ -43,7 +43,7 @@ async function getImage() {
 
     const response = await fetch(image);
     const imageBlob = await response.blob();
-    document.getElementById('weather').src = URL.createObjectURL(imageBlob);
+    document.getElementById('iss_svg').src = URL.createObjectURL(imageBlob);
 
 }
 
@@ -89,5 +89,14 @@ async function getISS() {
 }
 const interval = 3000;
 getImage();
+
+
+navigator.geolocation.getCurrentPosition(position=>{
+    const lat_user = position.coords.latitude;
+    const lon_user = position.coords.longitude;
+   addTrail(lat_user, lon_user)
+})
+
+
 
 setInterval(getISS, interval);
