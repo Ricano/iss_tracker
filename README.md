@@ -4,10 +4,38 @@
 Consuming data from wheretheiss.at API.
 </h3>
 
+## About ISS Tracker
 
-<p>
+ISS Tracker main goal is to pin point, on a map, the International Space Station real time location.
 
-</p>
+The app uses the "Where The ISS at?" [API](https://wheretheiss.at/w/developer) to gather the ISS data.
+
+It then implements the [Leaflet](https://leafletjs.com/) library to display the data on a map.
+
+## Getting started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+VS Code or any other way to run a live local server. 
 
 
+### Installation
 
+Clone the repository
+
+    git clone git@github.com:Ricano/iss_tracker.git
+
+Switch to the repo folder or open it in VSCode
+
+    cd iss_tracker
+
+Run index.html
+
+    use VSCode live server or doubleclick on the index.html file 
+
+
+## License
+
+   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
