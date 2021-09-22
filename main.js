@@ -51,8 +51,6 @@ async function getISS() {
 
     const response = await fetch(iss);
 
-    console.log(response);
-
     const data = await response.json();
     const lat = data.latitude
     const lon = data.longitude

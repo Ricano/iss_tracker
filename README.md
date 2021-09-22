@@ -33,8 +33,13 @@ Switch to the repo folder or open it in VSCode
 
 Run index.html
 
+    rename index.php to index.html and run it
     use VSCode live server or doubleclick on the index.html file 
 
+
+## Online Demo
+
+[ISS TRACKER DEMO](https://iss-tracker-rest-api-example.herokuapp.com/)
 
 ## License
 
