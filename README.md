@@ -37,10 +37,6 @@ Run index.html
     use VSCode live server or doubleclick on the index.html file 
 
 
-## Online Demo
-
-[ISS TRACKER DEMO](https://iss-tracker-rest-api-example.herokuapp.com/)
-
 ## License
 
    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
