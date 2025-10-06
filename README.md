@@ -18,23 +18,14 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-VS Code or any other way to run a live local server. 
+A browser. 
 
 
 ### Installation
 
 Clone the repository
 
-    git clone git@github.com:Ricano/iss_tracker.git
-
-Switch to the repo folder or open it in VSCode
-
-    cd iss_tracker
-
 Run index.html
-
-    rename index.php to index.html and run it
-    use VSCode live server or doubleclick on the index.html file 
 
 
 ## License
