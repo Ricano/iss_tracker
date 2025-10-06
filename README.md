@@ -14,7 +14,7 @@ It then implements the [Leaflet](https://leafletjs.com/) library to display the 
 
 ## Live demo
 
-[![ISS Tracker](/iss.svg)](https://ricano.github.io/iss_tracker/)
+[![ISS Tracker](/iss.png)](https://ricano.github.io/iss_tracker/)
 
 
 
