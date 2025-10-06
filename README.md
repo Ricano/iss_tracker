@@ -12,6 +12,12 @@ The app uses the "Where The ISS at?" [API](https://wheretheiss.at/w/developer) t
 
 It then implements the [Leaflet](https://leafletjs.com/) library to display the data on a map.
 
+## Live demo
+
+[![ISS Tracker](/iss.svg)](https://ricano.github.io/iss_tracker/)
+
+
+
 ## Getting started
 
 To get a local copy up and running follow these simple steps.

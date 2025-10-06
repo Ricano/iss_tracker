@@ -65,25 +65,6 @@ async function getISS() {
     addTrail(lat, lon);
 
 
-    const postData = {
-        lat: lat,
-        lon: lon,
-        vel: vel
-    };
-    const postRequest = {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(postData),
-    }
-
-
-    const serverResponse = await fetch('/', () => postRequest);
-    const json = await serverResponse.json();
-    console.log(json);
-    console.log(Date.now.toString);
-
 }
 const interval = 3000;
 getImage();
